@@ -28,7 +28,7 @@ prediction = model.predict([[x_predict]])
 # print out the linear equation and r squared value
 print(f"Model's Linear Equation: y = {coef}x + {intercept}")
 print(f"R Squared value: {r_squared}")
-print(f"Prediction when x is {x_predict}: {prediction}")
+print(f"Prediction when x is {x_predict}: {prediction[0]}")
 
 '''
 The following code creates the graph to visualize the data
